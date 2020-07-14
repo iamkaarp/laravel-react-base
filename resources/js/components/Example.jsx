@@ -17,7 +17,6 @@ function Example () {
                         </div>
                     </div>
                 </div>
-                <div />
             </div>
         </div>
     );

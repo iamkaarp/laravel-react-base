@@ -22,7 +22,6 @@
             "component": true,
             "html": true
         }],
-        "semi": ["error", "always"],
         "react/no-unescaped-entities": ["error", {"forbid": []}],
         "indent": ["error", 4],
         "react/jsx-indent": ["error", 4],
@@ -39,10 +38,46 @@
         "react/jsx-max-props-per-line": [2, {"maximum": 1, "when": "always" }],
         "react/jsx-first-prop-new-line": [2, "multiline"],
         "react/jsx-one-expression-per-line":["error"],
-        "comma-dangle": ["error", {
-            "arrays": "always",
-            "objects": "always"
-        }],
-        "array-bracket-spacing": ["error", "never"]
+        "array-bracket-spacing": ["error", "never"],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "quotes": [
+            "warn",
+            "single"
+        ],
+        "no-trailing-spaces": [
+            "error"
+        ],
+        "valid-jsdoc": [
+            "error",
+            {
+                "requireReturnDescription": false,
+                "requireParamDescription": false
+            }
+        ],
+        "eqeqeq": [
+            "error"
+        ],
+        "curly": [
+            "error"
+        ],
+        "no-param-reassign": [
+            "error"
+        ],
+        "no-useless-concat": [
+            "error"
+        ],
+        "yoda": [
+            "error"
+        ],
+        "max-depth": [
+            "warn"
+        ]
     }
 }

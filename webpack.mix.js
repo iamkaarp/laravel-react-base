@@ -14,7 +14,7 @@ const tailwindcss = require('tailwindcss');
 
 mix.webpackConfig({
     resolve: {
-        extensions: ['.js', '.jsx', '.json', ],
+        extensions: ['.js', '.jsx', '.json'],
         alias: {
             '@': __dirname + '/resources/js',
         },
@@ -25,5 +25,5 @@ mix.react('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .options({
         processCssUrls: false,
-        postCss: [tailwindcss('./tailwind.config.js'), ],
+        postCss: [tailwindcss('./tailwind.config.js')],
     });
